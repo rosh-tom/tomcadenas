@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <title>Tom Cadenas</title>
 </head>
-<body>
-    <h1>TITLE</h1>
+<body class="is-preload"> 
+    <div id="wrapper">
+        <section id="main">
+            <header>
+                <span class="avatar"><img src="images/avatarrr.png" alt="" style="width: 150px;"></span>
+                <h1>Tom Cadenas</h1>
+                <p>Junior Web Developer</p>
+            </header>
+            <footer>
+                <ul class="icons">
+                    <li><a href="https://twitter.com/cadenas_tom" class="icon brands fa-twitter">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/rosh-tom" class="icon brands fa-linkedin">Linked in</a></li>
+                    <li><a href="https://github.com/rosh-tom" class="icon brands fa fa-github">Git Hub</a></li>
+                     
+                </ul>
+            </footer>
+        </section>
+            <footer id="footer">
+                <ul class="copyright">
+                    <li>&copy; Tom Cadenas</li><li>Temporary Webpage</li>
+                </ul>
+            </footer>
+    </div>
+
+        <!-- Scripts -->
+        <script>
+            if ('addEventListener' in window) {
+                window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+                document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+            }
+        </script>
+
+   
 </body>
+
 </html>
